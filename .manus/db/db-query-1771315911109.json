@@ -1,0 +1,52 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "activities"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "ai_reports"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "api_keys"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "customer_tags"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "customers"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "daily_reports"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "dashboard_settings"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "deals"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "folders"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "notification_settings"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "scanned_documents"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "tags"
+    },
+    {
+      "Tables_in_R2obXHPQZ8r9ngpCoUsd7w": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_R2obXHPQZ8r9ngpCoUsd7w\n__drizzle_migrations\nactivities\nai_reports\napi_keys\ncustomer_tags\ncustomers\ndaily_reports\ndashboard_settings\ndeals\nfolders\nnotification_settings\nscanned_documents\ntags\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 1516
+}

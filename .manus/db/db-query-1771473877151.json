@@ -1,0 +1,22 @@
+{
+  "query": "SELECT 'slack' as t, COUNT(*) as c FROM slack_messages UNION SELECT 'files', COUNT(*) FROM customer_files UNION SELECT 'customers', COUNT(*) FROM customers;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT 'slack' as t, COUNT(*) as c FROM slack_messages UNION SELECT 'files', COUNT(*) FROM customer_files UNION SELECT 'customers', COUNT(*) FROM customers;",
+  "rows": [
+    {
+      "t": "customers",
+      "c": "1"
+    },
+    {
+      "t": "slack",
+      "c": "0"
+    },
+    {
+      "t": "files",
+      "c": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "t\tc\ncustomers\t1\nslack\t0\nfiles\t0\n",
+  "stderr": "",
+  "execution_time_ms": 1524
+}

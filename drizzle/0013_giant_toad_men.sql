@@ -1,0 +1,1 @@
+ALTER TABLE `slack_messages` ADD `consultationStatus` enum('pending','done') DEFAULT 'pending';

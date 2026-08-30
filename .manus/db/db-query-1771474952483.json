@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO dashboard_settings (userId, widgetOrder, hiddenWidgets) VALUES (1, '[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]', '[]') ON DUPLICATE KEY UPDATE widgetOrder = '[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute INSERT INTO dashboard_settings (userId, widgetOrder, hiddenWidgets) VALUES (1, '[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]', '[]') ON DUPLICATE KEY UPDATE widgetOrder = '[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1559
+}

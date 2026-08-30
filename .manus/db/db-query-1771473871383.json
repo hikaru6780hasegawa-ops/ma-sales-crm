@@ -1,0 +1,13 @@
+{
+  "query": "SELECT COUNT(*) as cnt FROM slack_messages;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT COUNT(*) as cnt FROM slack_messages;",
+  "rows": [
+    {
+      "cnt": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "cnt\n0\n",
+  "stderr": "",
+  "execution_time_ms": 1541
+}

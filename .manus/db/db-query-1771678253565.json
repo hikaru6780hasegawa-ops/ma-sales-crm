@@ -1,0 +1,15 @@
+{
+  "query": "SELECT COUNT(*) as total, MIN(`number`) as min_no, MAX(`number`) as max_no FROM minutes_numbers;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT COUNT(*) as total, MIN(`number`) as min_no, MAX(`number`) as max_no FROM minutes_numbers;",
+  "rows": [
+    {
+      "total": "353",
+      "min_no": "1",
+      "max_no": "353"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\tmin_no\tmax_no\n353\t1\t353\n",
+  "stderr": "",
+  "execution_time_ms": 1521
+}

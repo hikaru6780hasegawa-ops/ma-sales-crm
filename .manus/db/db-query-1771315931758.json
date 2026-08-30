@@ -1,0 +1,32 @@
+{
+  "query": "SELECT * FROM users;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT * FROM users;",
+  "rows": [
+    {
+      "id": "1",
+      "openId": "KB7UcaNz2XKraUwRwUpaHg",
+      "name": "長谷川",
+      "email": "hikaruhasegawa0708@gmail.com",
+      "loginMethod": "google",
+      "role": "admin",
+      "createdAt": "2026-02-16 14:23:05",
+      "updatedAt": "2026-02-17 08:12:08",
+      "lastSignedIn": "2026-02-17 08:12:09"
+    },
+    {
+      "id": "32",
+      "openId": "J8UwU7tTvFs7ESTprGTgGU",
+      "name": "歩 上田",
+      "email": "ayu6aaa@gmail.com",
+      "loginMethod": "google",
+      "role": "user",
+      "createdAt": "2026-02-16 14:29:33",
+      "updatedAt": "2026-02-16 14:31:59",
+      "lastSignedIn": "2026-02-16 14:31:59"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\topenId\tname\temail\tloginMethod\trole\tcreatedAt\tupdatedAt\tlastSignedIn\n1\tKB7UcaNz2XKraUwRwUpaHg\t長谷川\thikaruhasegawa0708@gmail.com\tgoogle\tadmin\t2026-02-16 14:23:05\t2026-02-17 08:12:08\t2026-02-17 08:12:09\n32\tJ8UwU7tTvFs7ESTprGTgGU\t歩 上田\tayu6aaa@gmail.com\tgoogle\tuser\t2026-02-16 14:29:33\t2026-02-16 14:31:59\t2026-02-16 14:31:59\n",
+  "stderr": "",
+  "execution_time_ms": 1527
+}

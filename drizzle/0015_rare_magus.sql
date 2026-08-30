@@ -1,0 +1,42 @@
+CREATE TABLE `funding_plans` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`customerName` varchar(255) NOT NULL,
+	`propertyName` varchar(500),
+	`submittedBy` int NOT NULL,
+	`submittedByName` varchar(255),
+	`fileUrl` text NOT NULL,
+	`fileName` varchar(500) NOT NULL,
+	`fileType` varchar(100),
+	`note` text,
+	`status` enum('pending','reviewing','approved','rejected') NOT NULL DEFAULT 'pending',
+	`reviewedBy` int,
+	`reviewedByName` varchar(255),
+	`reviewComment` text,
+	`reviewedAt` timestamp,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `funding_plans_id` PRIMARY KEY(`id`)
+);
+--> statement-breakpoint
+CREATE TABLE `purchase_offers` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`customerName` varchar(255) NOT NULL,
+	`propertyName` varchar(500),
+	`propertyAddress` varchar(500),
+	`purchasePrice` varchar(100),
+	`deposit` varchar(100),
+	`submittedBy` int NOT NULL,
+	`submittedByName` varchar(255),
+	`fileUrl` text NOT NULL,
+	`fileName` varchar(500) NOT NULL,
+	`fileType` varchar(100),
+	`note` text,
+	`status` enum('pending','reviewing','approved','rejected') NOT NULL DEFAULT 'pending',
+	`reviewedBy` int,
+	`reviewedByName` varchar(255),
+	`reviewComment` text,
+	`reviewedAt` timestamp,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `purchase_offers_id` PRIMARY KEY(`id`)
+);

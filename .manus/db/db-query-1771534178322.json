@@ -1,0 +1,18 @@
+{
+  "query": "SELECT * FROM dashboard_settings LIMIT 1;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT * FROM dashboard_settings LIMIT 1;",
+  "rows": [
+    {
+      "id": "1",
+      "userId": "1",
+      "widgetOrder": "[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]",
+      "hiddenWidgets": "[]",
+      "createdAt": "2026-02-19 04:22:32",
+      "updatedAt": "2026-02-19 04:22:32"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuserId\twidgetOrder\thiddenWidgets\tcreatedAt\tupdatedAt\n1\t1\t[\"stats\",\"slackStatus\",\"docCheckStatus\",\"customerFileOverview\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]\t[]\t2026-02-19 04:22:32\t2026-02-19 04:22:32\n",
+  "stderr": "",
+  "execution_time_ms": 1493
+}

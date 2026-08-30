@@ -1,0 +1,8 @@
+{
+  "query": "SELECT id, open_id, name, role FROM user;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT id, open_id, name, role FROM user;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1146 (42S02) at line 1: Table 'r2obxhpqz8r9ngpcousd7w.user' doesn't exist"
+  ]
+}

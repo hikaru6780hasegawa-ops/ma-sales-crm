@@ -1,0 +1,22 @@
+{
+  "query": "SELECT id, openId, name, role FROM users;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute SELECT id, openId, name, role FROM users;",
+  "rows": [
+    {
+      "id": "1",
+      "openId": "KB7UcaNz2XKraUwRwUpaHg",
+      "name": "長谷川",
+      "role": "admin"
+    },
+    {
+      "id": "32",
+      "openId": "J8UwU7tTvFs7ESTprGTgGU",
+      "name": "歩 上田",
+      "role": "user"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\topenId\tname\trole\n1\tKB7UcaNz2XKraUwRwUpaHg\t長谷川\tadmin\n32\tJ8UwU7tTvFs7ESTprGTgGU\t歩 上田\tuser\n",
+  "stderr": "",
+  "execution_time_ms": 1577
+}

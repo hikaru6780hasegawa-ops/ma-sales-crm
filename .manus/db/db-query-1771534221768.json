@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE dashboard_settings SET widgetOrder = '[\"checklistProgress\",\"stats\",\"docCheckStatus\",\"customerFileOverview\",\"slackStatus\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user SUpxYUhQTt8vaxv.5c965e832752 --database R2obXHPQZ8r9ngpCoUsd7w --execute UPDATE dashboard_settings SET widgetOrder = '[\"checklistProgress\",\"stats\",\"docCheckStatus\",\"customerFileOverview\",\"slackStatus\",\"dealPhaseChart\",\"dealAmountChart\",\"upcomingActions\",\"recentActivities\"]';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1527
+}
